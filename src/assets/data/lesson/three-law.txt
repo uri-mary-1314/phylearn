@@ -20,21 +20,21 @@
         - TH1 : Khối gỗ trượt trên mặt phẳng không ma sát, nếu như ta tác dụng một lực F có độ lớn tùy ý, để khối gỗ bắt đầu chuyển động đạt đến một vận tốc, sau  đó ngưng tác dụng lực F. Hãy nhận xét chuyển động của khối gỗ  khi không còn lực F tác dụng. Lặp lại thí nghiệm với các vật khác nhau, lực khác nhau và rút ra kết luận.
     </p>
     <div class="img">
-        <img src="../../../assets/img/2-1.png" alt="">
-        <img src="../../../assets/img/2-2.png" alt="">
+        <img src="./assets/img/2-1.png" alt="">
+        <img src="./assets/img/2-2.png" alt="">
     </div>
     <p>
         - TH2: Khối gỗ trượt trên mặt phẳng có ma sát, nếu như ta tác dụng một lực F có độ lớn lớn hơn độ lớn của lực ma sát, để khối gỗ bắt đầu chuyển động. Hãy nhận xét chuyển động của khối gỗ lúc này. Lặp lại thí nghiệm với các vật khác nhau, lực khác nhau và rút ra kết luận. Nhận xét về hợp lực trong trường hợp này.
     </p>
     <div class="img">
-        <img src="../../../assets/img/2-3.png" alt="">
+        <img src="./assets/img/2-3.png" alt="">
     </div>
     <p>
         - TH3: Khối gỗ trượt trên mặt phẳng có ma sát, nếu như ta tác dụng một lực F có độ lớn lớn hơn độ lớn của lực ma sát, để khối gỗ bắt đầu chuyển động đạt đến một vận tốc. Sau đó giảm dần lực F về bằng với lực ma sát. Hãy nhận xét chuyển động của khối gỗ lúc này. Lặp lại thí nghiệm với các vật khác nhau, lực khác nhau và rút ra kết luận. Nhận xét về hợp lực trong trường hợp này.
     </p>
     <div class="img">
-        <img src="../../../assets/img/2-4.png" alt="">
-        <img src="../../../assets/img/2-5.png" alt="">
+        <img src="./assets/img/2-4.png" alt="">
+        <img src="./assets/img/2-5.png" alt="">
     </div>
     <div class="heading-2">
         b. Khái niệm quán tính
@@ -55,27 +55,27 @@
         - Lần lượt thay đổi từng giá trị F nhưng không thay đổi vật, nhìn thước hiển thị số đo gia tốc
     </p>
     <div class="img">
-        <img src="../../../assets/img/4-1.png" alt="">
+        <img src="./assets/img/4-1.png" alt="">
     </div>
     <p>
         - Thêm lực ma sát, lần lượt thay đổi từng giá trị lực F và lực ma sát nhưng không thay đổi vật. Quan sát thước hiển thị số đo tổng lực và số đo gia tốc.
     </p>
     <div class="img">
-        <img src="../../../assets/img/4-2.png" alt="">
+        <img src="./assets/img/4-2.png" alt="">
     </div>
     <p>
         - Giữ nguyên độ lớn lực F. Lần lượt thay đổi khối lượng của vật. Quan sát thước hiển thị số đo khối lượng của vật và số đo gia tốc.
     </p>
     <div class="img">
-        <img src="../../../assets/img/4-3.png" alt="">
-        <img src="../../../assets/img/4-4.png" alt="">
+        <img src="./assets/img/4-3.png" alt="">
+        <img src="./assets/img/4-4.png" alt="">
     </div>
     <p>
         - Giữ nguyên độ lớn lực F, thêm lực ma sát. Lần lượt thay đổi khối lượng của vật. Quan sát thước hiển thị số đo khối lượng, gia tốc, tổng lực của vật.
     </p>
     <div class="img">
-        <img src="../../../assets/img/4-5.png" alt="">
-        <img src="../../../assets/img/4-6.png" alt="">
+        <img src="./assets/img/4-5.png" alt="">
+        <img src="./assets/img/4-6.png" alt="">
     </div>
     <div class="heading-2">b. Phát biểu</div>
     <div class="knowledge">

@@ -141,7 +141,7 @@
         <li>Luồn ống 40cm vào để khóa chai</li>
     </ul>
     <div class="img">
-        <img src="../../../assets/img/m1.png" alt="">
+        <img src="./assets/img/m1.png" alt="">
     </div>
     <em>Bước 2: Van bơm</em>
     <ul>
@@ -158,7 +158,7 @@
         <li>Ống phóng tên lửa cố định góc bắn trong khoảng 700-800 so với mặt đất.</li>
     </ul>
     <div class="img">
-        <img src="../../../assets/img/m2.png" alt="">
+        <img src="./assets/img/m2.png" alt="">
     </div>
     <div class="heading-3">3.2.2. Tên lửa</div>
     <em>a. Thân tên lửa</em>
@@ -170,21 +170,21 @@
         Giấy bìa cứng hay nhựa mềm cắt theo mẫu. Dùng keo nến hay keo 2 mặt dán vào thân chai theo 3 hướng đều nhau $(120^o)$.
     </p>
     <div class="img">
-        <img src="../../../assets/img/m3.png" alt="">
+        <img src="./assets/img/m3.png" alt="">
     </div>
     <em>c. Đầu tên lửa</em>
     <p>
         Tên lửa không mang dù. Lấy 1 chai PET 1.5 lít cắt đoạn 1/4 chai bắt đầu từ miệng chai.
     </p>
     <div class="img">
-        <img src="../../../assets/img/m4.png" alt="">
+        <img src="./assets/img/m4.png" alt="">
     </div>
     <em>d. Lắp ráp</em>
     <p>
         Dùng keo 2 mặt, keo nến, và băng keo màu bản lớn (5cm) để dán các phần của tên lửa lại
     </p>
     <div class="img">
-        <img src="../../../assets/img/m5.png" alt="">
+        <img src="./assets/img/m5.png" alt="">
     </div>
     <div class="heading">E. Các quy định an toàn tên lửa nước</div>
     <ul>
