@@ -1,0 +1,89 @@
+<div class="title">MỘT SỐ LỰC TRONG THỰC TIỄN</div>
+    <div class="heading">I. Lý thuyết</div>
+    <div class="heading-1">1. Trọng lực</div>
+    <div class="knowledge">
+        <p>+ Trọng lực là lực hấp dẫn giữa Trái Đất và vật.</p>
+        <p>+ Trọng lực có: </p>
+        <p>- Điểm đặt: tại một vị trí đặc biệt gọi là trọng tâm</p>
+        <p>- Hướng: hướng vào tâm Trái Đất</p>
+        <p>- Độ lớn: $P = mg$</p>
+        <p>Trong đó:</p>
+        <p style="padding-left: 60px;">$P$ là trọng lực tác dụng lên vật $(N)$</p>
+        <p style="padding-left: 60px;">$m$ là khối lượng của vật $(kg)$</p>
+        <p style="padding-left: 60px;">$g$ là gia tốc trọng trường $(m/s^2)$</p>
+    </div>
+    <div class="heading-1">2. Lực ma sát</div>
+    <div class="knowledge">
+        <p>- Lực ma sát nghỉ: có điểm đặt trên vật và ngay tại vị trí tiếp xúc của hai bề mặt, 
+            phương tiếp tuyến và ngược chiều với xu hướng chuyển động tương đối của hai bề mặt 
+            tiếp xúc. Độ lớn của lực ma sát nghỉ bằng độ lớn của lực tác dụng gây ra xu hướng 
+            chuyển động.
+        </p>
+        <p>
+            - Lực ma sát trượt: có điểm đặt trên vật và ngay tại vị trí tiếp xúc của hai bề 
+            mặt, phương tiếp tuyến và ngược chiều với chuyển động của vật. Độ lớn của lực ma 
+            sát trượt: 
+        </p>
+        <p>
+            + Không phụ thuộc vào diện tích tiếp xúc và tốc độ chuyển động của vật.
+        </p>
+        <p>
+            + Phụ thuộc vào vật liệu và tính chất của hai bề mặt tiếp xúc.
+        </p>
+        <p>
+            + Tỉ lệ với độ lớn của áp lực giữa hai bề mặt tiếp xúc: 
+        </p>
+        <p>
+            $$F_{ms}=μ.N$$
+        </p>
+        <p>
+            Trong đó:
+        </p>
+        <p style="padding-left: 60px;">$F_{ms}$ là lực ma sát trượt $(N)$</p>
+        <p style="padding-left: 60px;">$μ$ là hệ số ma sát trượt </p>
+        <p style="padding-left: 60px;">$N$ là áp lực giữa hai bề mặt $(N)$</p>
+    </div>
+    <div class="heading-1">3. Lực căng dây</div>
+    <div class="knowledge">
+        <p>
+            Khi một sợi dây bị kéo căng, nó sẽ tác dụng lên hai vật gắn với hai đầu dây những lực 
+            căng có đặc điểm: 
+        </p>
+        <p>- Điểm đặt là điểm mà đầu dây tiếp xúc với vật.</p>
+        <p>- Phương trùng với chính sợi dây.</p>
+        <p>- Chiều hướng từ hai đầu dây vào phần giữa của sợi dây.</p>
+        <p>Với những dây có khối lượng không đáng kể thì lực căng ở hai đầu dây luôn có cùng một độ lớn.</p>
+    </div>
+    <div class="heading-1">4. Lực nâng của nước (Lực dẩy Archimedes)</div>
+    <div class="knowledge">
+        <p>
+            - Lực đẩy archimedes tác dụng lên vật có điểm đặt tại vị trí trùng với trọng tâm 
+            của phần chất lỏng bị vật chiếm chỗ, có phương thẳng đứng, có chiều từ dưới lên 
+            trên, có độ lớn bằng trọng lượng phần chất lỏng bị chiếm chỗ.
+        </p>
+        <p>$$ F_A=ρgV $$</p>
+        <p>Trong đó:</p>
+        <p>$ρ$ là khối lượng riêng của chất lỏng $(kg/m^3)$</p>
+        <p>$g$ là gia tốc trọng trường $(m/s^2)$</p>
+        <p>$V$ là phần thể tích chất lỏng bị vật chiếm chỗ $(m^3)$ hay là phần thể tích của vật bị chìm $(m^3)$</p>
+    </div>
+    <div class="heading-1">5. Lực cản không khí</div>
+    <div class="knowledge">
+        <p>
+            - Được biểu diễn bởi một lực đặt tại trọng tâm vật, cùng phương và ngược chiều 
+            với chiều chuyển động của vật trong không khí.
+        </p>
+        <p>
+            - Trong chuyển động của vật, lực cản sẽ có độ lớn đáng kể và tăng dần đến khi 
+            tổng lực tác dụng lên vật bị triệt tiêu, vật sẽ chuyển động thẳng đều.
+        </p>
+    </div>
+    <div class="heading">II. Thí nghiệm PhET</div>
+    <p>Thực hiện lại những thí nghiệm trên lớp cùng PhET</p>
+    <div class="ex d-flex justify-content-center">
+        <iframe src="https://phet.colorado.edu/sims/html/forces-and-motion-basics/latest/forces-and-motion-basics_vi.html"
+            width="800"
+            height="480"
+            allowfullscreen>
+        </iframe>
+    </div>
