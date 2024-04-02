@@ -33,7 +33,6 @@ export class StudentComponent implements OnInit {
     private route: ActivatedRoute
   ) { }
   nextStep() {
-    console.log(this.step)
     if (this.step === 4 && this.id === 1) {
       return;
     }
@@ -45,9 +44,6 @@ export class StudentComponent implements OnInit {
       this.activeComponent = this.changeComponent();
       sessionStorage.setItem(keyStep, String(this.step))
     }
-  }
-  con() {
-    console.log(this.step, this.id)
   }
 
   preStep() {
