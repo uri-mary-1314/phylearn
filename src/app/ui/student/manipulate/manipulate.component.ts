@@ -12,27 +12,27 @@ export class ManipulateComponent implements OnInit {
   id!: number;
   sanitizedWordDocumentHtml!: any;
 
-  // getManipulate() {
-  //   this.service.getManipulate(this.id).subscribe(
-  //     (res: string) => {
-  //       this.sanitizedWordDocumentHtml = this.sanitizer.bypassSecurityTrustHtml(res);
-  //       console.log(this.sanitizedWordDocumentHtml)
-  //     }
-  //   )
-  // }
-
-  async getManipulate(id: number) {
-    try {
-      this.sanitizedWordDocumentHtml = await this.service.getManipulate(id);
-    } catch (error) {
-      console.error('Lỗi khi lấy dữ liệu:', error);
-      // Xử lý lỗi tại đây nếu cần
-    }
+  getManipulate() {
+    this.service.getManipulate(this.id).subscribe(
+      (res: string) => {
+        this.sanitizedWordDocumentHtml = this.sanitizer.bypassSecurityTrustHtml(res);
+        console.log(this.sanitizedWordDocumentHtml)
+      }
+    )
   }
+
+  // async getManipulate(id: number) {
+  //   try {
+  //     this.sanitizedWordDocumentHtml = await this.service.getManipulate(id);
+  //   } catch (error) {
+  //     console.error('Lỗi khi lấy dữ liệu:', error);
+  //     // Xử lý lỗi tại đây nếu cần
+  //   }
+  // }
 
   refreshLesson() {
     this.id = this.route.snapshot.params['id']
-    this.getManipulate(this.id);
+    this.getManipulate();
   }
 
   reloadPage() {
@@ -41,7 +41,7 @@ export class ManipulateComponent implements OnInit {
 
   ngOnInit(): void {
     this.id = this.route.snapshot.params['id']
-    this.getManipulate(this.id);
+    this.getManipulate();
     console.log(this.sanitizedWordDocumentHtml)
 
     this.router.events.subscribe(event => {

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http' 
-import { Observable, catchError, throwError } from 'rxjs';
+import { Observable, catchError, map, of, throwError } from 'rxjs';
 
 const API = new Map<number, string> ([
   [1, "three-law.json"],
@@ -29,21 +29,20 @@ export class ExamsService {
     return this.http.get(`./assets/data/practic/` + API.get(Number(id)))
   }
   
-  async getManipulate(id: number) {
-    if (await this.checkFileExists(`./assets/data/manipulate/` + API_LESSON.get(Number(id))))
+  getManipulate(id: number) {
+    if (this.fileExists(`./assets/data/manipulate/` + API_LESSON.get(Number(id)))) {
+      console.log('File exists.');
       return this.http.get(`./assets/data/manipulate/` + API_LESSON.get(Number(id)), {responseType: 'text'})
-    return '<p>This is <strong>trusted</strong> HTML content.</p>'
-  }
-  async checkFileExists(filePath: string): Promise<boolean> {
-    try {
-      const response = await fetch(filePath);
-      // Nếu mã trạng thái của response là 200, tức là file tồn tại
-      return response.status === 200;
-    } catch (error) {
-      // Xử lý lỗi nếu có
-      console.error('Lỗi khi kiểm tra tập tin:', error);
-      return false; // Giả sử file không tồn tại nếu có bất kỳ lỗi nào xảy ra
+    } else {
+      return this.http.get(`./assets/data/error.filePath.txt`, {responseType: 'text'})
     }
+  }
+
+  fileExists(filePath: string): Observable<boolean> {
+    return this.http.head(filePath, { observe: 'response' }).pipe(
+      map(response => response.ok), // Kiểm tra xem yêu cầu có thành công không
+      catchError(error => of(false)) // Xử lý lỗi, trả về false nếu có lỗi xảy ra
+    );
   }
 
   constructor(

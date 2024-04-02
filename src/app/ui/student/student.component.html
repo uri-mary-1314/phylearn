@@ -1,11 +1,12 @@
 <div class="container-fluid wrapper">
-    <div class="pre-btn btn" (click)="preStep()">
+    <button (click)="con()">Console</button>
+    <div class="pre-btn btn" id="pre-btn" (click)="preStep()">
         <i class="fa-solid fa-chevron-left"></i>
     </div>
     <div class="content-container container-fluid">
         <ng-container *ngComponentOutlet="activeComponent"></ng-container>
     </div>
-    <div class="next-btn btn" (click)="nextStep()">
+    <div class="next-btn btn" id="next-btn" (click)="nextStep()">
         <i class="fa-solid fa-chevron-right"></i>
     </div>
 </div>
