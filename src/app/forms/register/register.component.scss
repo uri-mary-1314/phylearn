@@ -1,0 +1,181 @@
+@use "src/styles.scss" as g;
+
+.background {
+    //Position
+    position: fixed;
+
+    //Display & Box model
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://img.freepik.com/premium-photo/beautiful-mesmerizing-cluster-stars-space_410516-52344.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    // filter: blur(0px);
+    // -webkit-filter: blur(0px);
+}
+
+.container {
+    //Position
+    position: relative;
+    top: 60px;
+
+    .form-container {
+        //Display & Box model
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+        box-shadow: 0 0 6px #d8d8d8;
+        background-color: rgba(178, 225, 166, 0.24);
+        margin: auto;
+        padding: 24px 80px;
+        max-width: 920px;
+        
+        //Other
+        overflow: hidden;
+
+        .form__logo {
+            //Display & Box model
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 12px;
+
+            img {
+                // Display & Box model
+                height: 64px;
+                width: 64px;
+                border-radius: 50%;
+                margin-right: 12px;
+            }
+
+            p {
+                //Display & Box model
+                margin: 0;
+
+                //Text
+                font-family: 'Gochi hand', sans-serif;
+                font-size: 4.8rem;
+                color: g.$white-color;
+            } 
+        }
+        .form__heading {
+            //Display & Box model
+            align-self: flex-start;
+            margin-bottom: 12px;
+
+            //Text
+            font-family: 'Gochi hand', sans-serif;
+            font-size: 3rem;
+            color: g.$white-color;
+        }
+
+        .form__register {
+            //Display & Box model
+            width: 100%;
+
+            .form-floating {
+                .form-control {
+                    //Display & Box model
+                    height: calc(4.8rem + 2px);
+                    border-radius: 16px;
+                    margin-bottom: 20px;
+                    padding: 20px 12px 4px;
+
+                    //Text
+                    font-size: 1.6rem;
+                }
+
+                label {
+                    //Display & Box model
+                    display: flex;
+                    align-self: center;
+                    padding: 10px 12px;
+
+                    //Text
+                    font-size: 1.6rem;
+                }
+    
+                .email, .password {
+                    //Display & Box model
+                    width: 100%;
+                }
+            }
+
+            .title {
+                //Display & Box model
+                padding-bottom: 8px;
+
+                //Text
+                font-size: 1.6rem;
+                color: g.$white-color;
+            }
+
+            .form__info {
+                //Display & Box model
+                display: flex;
+                justify-content: space-between;
+
+                .form-floating {
+                    //Display & Box model
+                    width: 48%;
+                }
+            }
+
+            .form__submit {
+                //Display & Box model
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+
+                .form__login {
+                    //Text
+                    font-size: 1.6rem;
+                    color: g.$white-color;
+
+                    a {
+                        //Text
+                        text-decoration: none;
+
+                        //Other
+                        transition: all 0.2s linear;
+
+                        &:hover {
+                            //Text
+                            text-decoration: underline;
+                        }
+                    }
+                }
+
+                .btn-register {
+                    //Display & Box model
+                    width: 48%;
+                    height: 46px;
+                    border: 2px solid rgb(118, 162, 63);
+                    border-radius: 24px;
+                    // justify-self: flex-end;
+                    margin: 12px 0;
+    
+                    //Text
+                    color: g.$white-color;
+                    font-size: 1.6rem;
+    
+                    //Color
+                    background-color: rgb(118, 162, 63);
+
+                    //Other
+                    transition: all 0.2s ease-in-out;
+                    &:hover {
+                        //Text
+                        // color: g.$white-color;
+
+                        //Other
+                        background-color: transparent;
+                    }
+                }
+            }
+        }
+    }
+}

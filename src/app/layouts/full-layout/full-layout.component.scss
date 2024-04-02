@@ -1,0 +1,46 @@
+@use 'src/styles.scss' as g;
+
+.wrapper {
+    //Display & Box model
+    padding: 0 0 0 0;
+    // height: 500vh;
+
+    //Color
+    background: hsla(191, 76%, 79%, 1);
+    background: linear-gradient(315deg, hsla(191, 76%, 79%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+    background: -moz-linear-gradient(315deg, hsla(191, 76%, 79%, 1) 0%, hsla(0, 0%, 100%, 1) 100%); 
+    background: -webkit-linear-gradient(315deg, hsla(191, 76%, 79%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+
+    .header {
+        //Position 
+        position: fixed;
+        top: 12px;
+        width: 100%;
+        z-index: 2;
+    }
+    .content-wrapper {
+        //Display & Box model
+        // margin-top: 100px;
+        padding: 0;
+        border-radius: 10px;
+    }
+    .swap {
+        a {
+            //Text
+            text-decoration: none !important;
+        }
+        a > i {
+            //Text
+            font-size: 5rem;
+            box-shadow: 0 0 10px g.$white-color;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgb(235, 225, 225), rgb(224, 129, 158));
+        }
+    }
+    .report-form {
+        //Position
+        position: fixed;
+        right: 20px;
+        bottom: 80px;
+    }
+}

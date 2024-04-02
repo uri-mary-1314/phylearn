@@ -1,0 +1,126 @@
+<div class="title">
+        BA ĐỊNH LUẬT NEWTON
+</div>
+<div class="lesson">
+    <div class="heading">I. Lý thuyết</div>
+    <div class="heading-1">1. Ôn tập khái niệm về lực</div>
+    <div class="knowledge">
+        Tác dụng đẩy, kéo của vật này lên vật khác gọi là lực. Lực là đại lượng đặc trưng cho tác dụng của vật này lên vật khác.
+    </div>
+    <div class="heading-1">
+        2. Khái niệm quán tính
+    </div>
+    <div class="heading-2">
+        a. Thí nghiệm mô phỏng cùng PhET
+    </div>
+    <p>
+        Thử nghiệm lại thí nghiệm đã làm trên lớp theo từng trường hợp sau:
+    </p>
+    <p>
+        - TH1 : Khối gỗ trượt trên mặt phẳng không ma sát, nếu như ta tác dụng một lực F có độ lớn tùy ý, để khối gỗ bắt đầu chuyển động đạt đến một vận tốc, sau  đó ngưng tác dụng lực F. Hãy nhận xét chuyển động của khối gỗ  khi không còn lực F tác dụng. Lặp lại thí nghiệm với các vật khác nhau, lực khác nhau và rút ra kết luận.
+    </p>
+    <div class="img">
+        <img src="/assets/img/2-1.png" alt="">
+        <img src="/assets/img/2-2.png" alt="">
+    </div>
+    <p>
+        - TH2: Khối gỗ trượt trên mặt phẳng có ma sát, nếu như ta tác dụng một lực F có độ lớn lớn hơn độ lớn của lực ma sát, để khối gỗ bắt đầu chuyển động. Hãy nhận xét chuyển động của khối gỗ lúc này. Lặp lại thí nghiệm với các vật khác nhau, lực khác nhau và rút ra kết luận. Nhận xét về hợp lực trong trường hợp này.
+    </p>
+    <div class="img">
+        <img src="/assets/img/2-3.png" alt="">
+    </div>
+    <p>
+        - TH3: Khối gỗ trượt trên mặt phẳng có ma sát, nếu như ta tác dụng một lực F có độ lớn lớn hơn độ lớn của lực ma sát, để khối gỗ bắt đầu chuyển động đạt đến một vận tốc. Sau đó giảm dần lực F về bằng với lực ma sát. Hãy nhận xét chuyển động của khối gỗ lúc này. Lặp lại thí nghiệm với các vật khác nhau, lực khác nhau và rút ra kết luận. Nhận xét về hợp lực trong trường hợp này.
+    </p>
+    <div class="img">
+        <img src="/assets/img/2-4.png" alt="">
+        <img src="/assets/img/2-5.png" alt="">
+    </div>
+    <div class="heading-2">
+        b. Khái niệm quán tính
+    </div>
+    <div class="knowledge">
+        Vật luôn có xu hướng bảo toàn chuyển động của mình. Tính chất này gọi là quán tính của vật.
+    </div>
+    <div class="heading-1">3. Định luật I Newton</div>
+    <div class="knowledge">
+        Một vật nếu không chịu tác dụng của lực nào hoặc chịu tác dụng của hợp lực bằng 0 thì vật sẽ giữ nguyên trạng thái đứng yên hoặc chuyển động thẳng đều mãi mãi.
+    </div>
+    <div class="heading-1">4. Định luật II Newton</div>
+    <div class="heading-2">a. Thực hiện thí nghiệm mô phỏng cùng PhET</div>
+    <p>
+        Thử nghiệm lại các phương án thí nghiệm đã làm trên lớp theo các trường hợp sau:
+    </p>
+    <p>
+        - Lần lượt thay đổi từng giá trị F nhưng không thay đổi vật, nhìn thước hiển thị số đo gia tốc
+    </p>
+    <div class="img">
+        <img src="/assets/img/4-1.png" alt="">
+    </div>
+    <p>
+        - Thêm lực ma sát, lần lượt thay đổi từng giá trị lực F và lực ma sát nhưng không thay đổi vật. Quan sát thước hiển thị số đo tổng lực và số đo gia tốc.
+    </p>
+    <div class="img">
+        <img src="/assets/img/4-2.png" alt="">
+    </div>
+    <p>
+        - Giữ nguyên độ lớn lực F. Lần lượt thay đổi khối lượng của vật. Quan sát thước hiển thị số đo khối lượng của vật và số đo gia tốc.
+    </p>
+    <div class="img">
+        <img src="/assets/img/4-3.png" alt="">
+        <img src="/assets/img/4-4.png" alt="">
+    </div>
+    <p>
+        - Giữ nguyên độ lớn lực F, thêm lực ma sát. Lần lượt thay đổi khối lượng của vật. Quan sát thước hiển thị số đo khối lượng, gia tốc, tổng lực của vật.
+    </p>
+    <div class="img">
+        <img src="/assets/img/4-5.png" alt="">
+        <img src="/assets/img/4-6.png" alt="">
+    </div>
+    <div class="heading-2">b. Phát biểu</div>
+    <div class="knowledge">
+        <p>
+            Gia tốc của vật có cùng hướng với lực tác dụng lên vật. Trong trường hợp có nhiều lực tác dụng thì hướng của gia tốc là hướng của lực tổng hợp. 
+            Độ lớn của gia tốc tỉ lệ thuận với độ lớn của lực và tỉ lệ nghịch với khối lượng.
+        </p>
+        <span class="bold" id="mathContent">$$ \vec{a} = \frac{\vec{F}}{m} $$</span>
+        <p>
+            Trong đó:
+        </p>
+        <p style="padding-left: 60px;">a là gia tốc $(m/s^2)$
+        </p>
+        <p style="padding-left: 60px;">
+            F là lực tổng hợp của các thành phần (N)
+        </p>
+        <p style="padding-left: 60px;">m là khối lượng của vật (kg)</p>
+    </div>
+    <div class="heading-1">5. Đặc trưng của mức quán tính</div>
+    <div class="knowledge"><p>
+        Do khối lượng tỉ lệ nghịch với gia tốc , nên khối lượng càng lớn thì gia tốc càng nhỏ và ngược lại , mà gia tốc là đại lượng đặc trưng cho sự 
+        thay đổi vận tốc , gia tốc càng nhỏ thì sự thay đổi vận tốc càng nhỏ , mà trong chuyển động vật có xu hướng bảo toàn chuyển động của mình (khó 
+        thay đổi vận tốc) mà xu hướng trên gọi là quán tính nên khối lượng càng lớn thì vật càng khó thay đổi vận tốc nên khối lượng là một đại lượng 
+        đặc trưng cho mức quán tính của vật.
+        </p> 
+    </div>
+    <div class="heading-1">
+        6. Lực bằng nhau và lực không bằng nhau
+    </div>
+    <p class="knowledge">- Hai lực bằng nhau : khi lần lượt tác dụng vào cùng một vật sẽ gây ra lần lượt hai vecto gia tốc bằng nhau (giống nhau về hướng, độ lớn)
+        - Hai lực không bằng nhau : khi tác dụng lần lượt vào cùng một vật sẽ gây ra lần lượt hai vecto gia tốc khác nhau ( về hướng hoặc độ lớn).
+    </p>
+    <div class="heading-1">
+        7. Định luật III Newton
+    </div>
+    <p class="knowledge">
+        Khi vật A tác dụng lên vật B một lực, thì vật B cũng tác dụng ngược trở lại vật A một lực. Hai lực này có điểm đặt lên hai vật khác nhau, 
+        có cùng giá, cùng độ lớn nhưng ngược chiều
+    </p>
+    <div class="heading">II. Thí nghiệm PhET</div>
+    <div class="ex d-flex justify-content-center">
+        <iframe src="https://phet.colorado.edu/sims/html/forces-and-motion-basics/latest/forces-and-motion-basics_vi.html"
+            width="800"
+            height="480"
+            allowfullscreen>
+        </iframe>
+    </div>
+</div>  

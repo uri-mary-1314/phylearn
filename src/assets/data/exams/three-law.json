@@ -1,0 +1,117 @@
+[
+    {
+        "id": 1,
+        "title": "Theo định luật I Newton thì",
+        "options": [
+            {
+                "A":"A",
+                "a":"với mỗi lực tác dụng luôn có một phản lực trực đối với nó."
+            },
+            {
+                "A":"B",
+                "a":"một vật sẽ giữ nguyên trạng thái đứng yên hoặc chuyển động thẳng đều nếu nó không chịu tác dụng của bất kì lực nào khác."
+            },
+            {
+                "A":"C",
+                "a":"một vật không thể chuyển động được nếu hợp lực tác dụng lên nó bằng 0."
+            },
+            {
+                "A":"D",
+                "a":"mọi vật đang chuyển động đều có xu hướng dừng lại do quán tính."
+            }
+        ],
+        "answer": "một vật sẽ giữ nguyên trạng thái đứng yên hoặc chuyển động thẳng đều nếu nó không chịu tác dụng của bất kì lực nào khác."
+    },
+    {
+        "id": 2,
+        "title": "Theo định luật II Niu-tơn thì lực và phản lực",
+        "options": [
+            {
+                "A":"A",
+                "a":"là cặp lực cân bằng."
+            },
+            {
+                "A":"B",
+                "a":"là cặp lực có cùng điểm đặt."
+            },
+            {
+                "A":"C",
+                "a":"là cặp lực cùng phương, cùng chiều và cùng độ lớn."
+            },
+            {
+                "A":"D",
+                "a":"là cặp lực xuất hiện và mất đi đồng thời."
+            }
+        ],
+        "answer": "là cặp lực cân bằng."
+    },
+    {
+        "id": 3,
+        "title": "Theo định luật I Newton thì",
+        "options": [
+            {
+                "A":"A",
+                "a":"với mỗi lực tác dụng luôn có một phản lực trực đối với nó."
+            },
+            {
+                "A":"B",
+                "a":"một vật sẽ giữ nguyên trạng thái đứng yên hoặc chuyển động thẳng đều nếu nó không chịu tác dụng của bất kì lực nào khác."
+            },
+            {
+                "A":"C",
+                "a":"một vật không thể chuyển động được nếu hợp lực tác dụng lên nó bằng 0."
+            },
+            {
+                "A":"D",
+                "a":"mọi vật đang chuyển động đều có xu hướng dừng lại do quán tính."
+            }
+        ],
+        "answer": "một vật sẽ giữ nguyên trạng thái đứng yên hoặc chuyển động thẳng đều nếu nó không chịu tác dụng của bất kì lực nào khác."
+    },
+    {
+        "id": 4,
+        "title": "Theo định luật I Newton thì",
+        "options": [
+            {
+                "A":"A",
+                "a":"với mỗi lực tác dụng luôn có một phản lực trực đối với nó."
+            },
+            {
+                "A":"B",
+                "a":"một vật sẽ giữ nguyên trạng thái đứng yên hoặc chuyển động thẳng đều nếu nó không chịu tác dụng của bất kì lực nào khác."
+            },
+            {
+                "A":"C",
+                "a":"một vật không thể chuyển động được nếu hợp lực tác dụng lên nó bằng 0."
+            },
+            {
+                "A":"D",
+                "a":"mọi vật đang chuyển động đều có xu hướng dừng lại do quán tính."
+            }
+        ],
+        "answer": "một vật sẽ giữ nguyên trạng thái đứng yên hoặc chuyển động thẳng đều nếu nó không chịu tác dụng của bất kì lực nào khác."
+    },
+    {
+        "id": 5,
+        "title": "Theo định luật I Newton thì",
+        "options": [
+            {
+                "A":"A",
+                "a":"với mỗi lực tác dụng luôn có một phản lực trực đối với nó."
+            },
+            {
+                "A":"B",
+                "a":"một vật sẽ giữ nguyên trạng thái đứng yên hoặc chuyển động thẳng đều nếu nó không chịu tác dụng của bất kì lực nào khác."
+            },
+            {
+                "A":"C",
+                "a":"một vật không thể chuyển động được nếu hợp lực tác dụng lên nó bằng 0."
+            },
+            {
+                "A":"D",
+                "a":"mọi vật đang chuyển động đều có xu hướng dừng lại do quán tính."
+            }
+        ],
+        "answer": "một vật sẽ giữ nguyên trạng thái đứng yên hoặc chuyển động thẳng đều nếu nó không chịu tác dụng của bất kì lực nào khác."
+    }
+]

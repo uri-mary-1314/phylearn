@@ -1,0 +1,23 @@
+/* to-top-button.component.css */
+#toTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 0px;
+    width: 4.8rem;
+    height: 4.8rem;
+    background-color: #0f3f72;
+    color: #fff;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    box-shadow: 0px 0px 3px 1px #222229;
+    // background: radial-gradient(circle, rgb(235, 225, 225), rgb(224, 129, 158));
+
+    cursor: pointer;
+    i {
+        font-size: 3.2rem;
+    }
+}

@@ -1,0 +1,52 @@
+<div class="container-fluid background">
+</div>
+<div class="container">
+    <div class="form-container">
+        <div class="form__logo" [routerLink]="['/home']" style="cursor: pointer;">
+            <img src="https://hcmue.edu.vn/images/Faculty_Logos/lY.png" alt="">
+            <p>PhyLearn</p>
+        </div>
+        <div class="form__heading">Welcome back!</div>
+        <form class="form__login" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+            <div class="form-floating username">
+                <input type="text" class="form-control" 
+                    name="email" placeholder="Enter your email..." 
+                    id="email" formControlName="gmail"
+                >
+                <label for="email">Email</label>
+            </div>
+            <div class="form-floating password">
+                <input type="password" class="form-control" 
+                    name="password" placeholder="Enter your password..."
+                    id="password" formControlName="pass"
+                >
+                <label for="password">Password</label>
+            </div>
+            <span *ngIf="cantLogin" style="color: red; font-size: 1.5rem; padding-bottom: 4px;">
+                *Tài khoản hoặc mật khẩu không đúng!
+            </span>
+            <div class="form-check remember-me">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox" name="remember">
+                  <p>Remember me</p>
+                </label>
+              </div>
+            <div class="form__submit">
+                <button type="submit" class="btn-login">Đăng nhập</button>
+            </div>
+        </form>
+        <div class="control-container">
+            <a href="" class="forgot-pass">Quên mật khẩu?</a>
+            <div class="sign-in">
+                <p>Chưa có tài khoản? </p>
+                <a [routerLink]="['/sign-up']">Tạo tại đây</a>
+            </div>
+        </div>
+        <div class="another">
+            <div class="seperate">
+                OR
+            </div>
+            <button type="button" class="btn-google">Google</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,301 @@
+@use 'src/styles.scss' as g;
+
+.wrapper {
+    //Display & Box model
+    margin: 0;
+    padding: 0;
+}
+
+#banner {
+    //Position
+    position: relative;
+
+    .background {
+        //Display & Box model
+        height: auto;
+        width: 100%;
+        object-fit: cover;
+
+        //Other
+        opacity: 0.96;
+    }
+    .banner-heading {
+        //Position
+        position: absolute;
+        top: 150px;
+        right: 100px;
+
+        //Display & Box model
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        //Text
+        font-family: 'Signika', sans-serif;
+
+        .title {
+            //Text
+            font-weight: 600;
+            font-size: 6.4rem;
+        }
+        .desc {
+            //Text
+            font-size: 2.4rem;
+        }
+    }
+    .more {
+        //Position
+        position: absolute;
+        bottom: 120px;
+        right: 50%;
+        transform: translateX(50%);
+
+        //Display & Box model
+        padding: 10px 32px;
+        border-radius: 14px;
+        border: 2px solid #333;
+
+        //Text
+        font-size: 3.6rem;
+        // text-transform: uppercase;
+        font-family: 'Signika', sans-serif;
+        font-weight: 700;
+
+        //Other
+        transition: all ease 0.2s;
+
+        &:hover {
+            //Position
+            transform: translateX(calc(50% - 2px));
+            bottom: 122px;
+
+            //Display & Box model
+            box-shadow: 2px 2px 2px #333;
+        }
+    }
+}
+
+#process-teaching {
+    //Display & Box model
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+    //Text
+    font-family: 'Signika', sans-serif;
+
+    //Color
+    background-color: #fff;
+
+    .title {
+        //Text
+        font-weight: 600;
+        font-size: 4rem;
+    }
+    .process {
+        //Position
+        position: relative;
+
+        //Display & Box model
+        display: flex;
+        margin-top: 30px;
+
+        &:after {
+            //Position
+            position: absolute;
+            top: 50%;
+
+            //Display & Box model
+            content: "";
+            display: block;
+            width: 100%;
+            border: 2px dashed #777;
+            border-radius: 2px;
+        }
+        .step {
+            //Position
+            z-index: 1;
+
+            //Display & Box model
+            flex: 1;
+
+            .illustration {
+                //Display & Box model
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 160px;
+                width: 100%;
+                border-radius: 12px;
+       
+                //Color
+                background-color: bisque;
+                
+                i {      
+                    //Text
+                    font-size: 3.2rem;
+                }
+            }
+
+            .desc {
+                //Display & Box model
+                padding: 6px 0;
+
+                //Text
+                font-size: 2rem;
+                font-weight: 600;
+            }
+        }
+        .step+.step {
+            //Display & Box model
+            margin-left: 40px;
+        }
+    }
+}
+
+#courses {
+    //Display & Box model
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    //Text
+    font-family: 'Signika', sans-serif;
+    .title {
+        //Text
+        font-weight: 600;
+        font-size: 4rem;
+    }
+    .courses-list {
+        //Display & Box model
+
+        .course-container {
+            //Display & Box model
+            border-radius: 10px;
+            width: 46%;
+            margin: 24px;
+            box-shadow: 0 0 6px rgb(218, 218, 218);
+
+            //Color
+            background-color: antiquewhite;
+
+            //Other
+            overflow: hidden;
+            transition: all ease-in-out 0.2s;
+            img {
+                //Display & Box model
+                width: 100%;
+                aspect-ratio: 16/9;
+            }
+            .info {
+                //Display & Box model
+                padding: 12px 20px;
+
+                .course-name {
+                    //Display & Box model
+                    padding-bottom: 6px;
+
+                    //Text
+                    font-size: 2.4rem;
+                    font-weight: 600;
+                }
+                .course-desc {
+                    //Text
+                    text-align: justify;
+                    font-size: 1.6rem;
+                }
+                .detail {
+                    //Display & Box model
+                    margin: 8px 0 0;
+                    justify-content: space-between;
+                    padding-top: 4px;
+                    i+div {
+                        //Display & Box model
+                        margin-left: 4px;
+                    }
+                    i, div {
+                        //Text
+                        font-size: 1.4rem;
+                    }
+                    .more {
+                        .amount-mems {
+                            //Display & Box model
+                            margin-right: 12px;
+                        }
+                    }
+                }
+            }
+            &:hover {
+                //Display & Box model
+                box-shadow: 0 0 12px #999999;
+
+                //Other
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+#best-teachers {
+    //Display & Box model
+    padding-bottom: 40px;
+    //Text
+    font-family: 'Signika', sans-serif;
+    img {
+        //Display & Box model
+        width: 100%;
+        aspect-ratio: 3/4;
+        object-fit: cover;
+    }
+    .heading {
+        //Text
+        font-weight: 600;
+        font-size: 4rem;
+    }
+    .t-1 {
+        //Position
+        position: relative;
+        //Display & Box model
+        width: 30%;
+        margin: 24px;
+        border-radius: 20px;
+        border-top-right-radius: 90px;
+        box-shadow: 0 0 12px 0px #c2c2c2;
+
+        //Other
+        overflow: hidden;
+        transition: all ease-in-out 0.36s;
+        cursor: pointer;
+        
+        &:hover {
+            //Display & Box model
+            box-shadow: 0 0 16px 0 #999999;
+            .info {
+                //Position
+                bottom: 0;
+                //Other
+                opacity: 1;
+            }
+        }
+        .info {
+            //Position
+            position: absolute;
+            bottom: -100%;
+            
+            //Display & Box model
+            width: 100%;
+            padding: 20px 0;
+            
+            //Color
+            background-color: aquamarine;
+            
+            //Other
+            opacity: 0;
+            transition: all ease-in-out 0.36s;
+
+            >div {
+                //Text
+                font-size: 1.6rem;
+            }
+        }
+    }
+}

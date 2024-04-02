@@ -1,0 +1,45 @@
+<div class="container wrapper">
+    <div [routerLink]="['./home']" routerLinkActive="active-link" class="logo">
+        <div class="logo__brand-name">PhyLearn</div>
+    </div>
+    <div class="navbar">
+        <ul class="navbar__list">
+            <li class="navbar__item">
+                <a [routerLink]="['./home']" [ngClass]="{ 'active': currentRoute === '/home' || currentRoute === '/'}">Trang chủ</a>
+            </li>
+            <li class="navbar__item">
+                <a [routerLink]="['./dashboard']" [ngClass]="{ 'active': currentRoute === '/dashboard' }">Lớp học</a>
+            </li>
+            <li class="navbar__item">
+                <a class="active" [routerLink]="['./instructions']" [ngClass]="{ 'active': currentRoute === '/instructions' }">Hướng dẫn</a>
+            </li>
+            <li class="navbar__item">
+                <a [routerLink]="['./articles']" [ngClass]="{ 'active': currentRoute === '/articles' }">Bài viết</a>
+            </li>
+        </ul>
+    </div>
+    <div class="controller">
+        <div *ngIf="app.is_logged" class="user">
+            <div class="avt d-flex align-items-center">
+                <div class="username">Nguyễn An Khang</div>
+                <img src="https://tranhdecors.com/wp-content/uploads/edd/2023/09/Hinh-nen-Anime-co-gai-Butterfly-xinh-dep.jpg" alt="User avatar">
+            </div>
+        </div>
+        <div *ngIf="!app.is_logged" class="guest d-flex">
+            <div 
+                [routerLink]="['/login']" 
+                routerLinkActive="active-link" 
+                class="guest__sign-in"
+            >
+                Đăng nhập
+            </div>
+            <div 
+                [routerLink]="['/sign-up']" 
+                routerLinkActive="active-link" 
+                class="guest__sign-up"
+            >
+                Đăng ký
+            </div>
+        </div>
+    </div>
+</div>

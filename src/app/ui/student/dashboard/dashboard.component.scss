@@ -1,0 +1,88 @@
+#courses {
+    //Display & Box model
+    padding-top: 100px;
+    margin-bottom: 40px;
+
+    //Text
+    font-family: 'Signika', sans-serif;
+    .title {
+        //Display & Box model
+        padding-left: 20px;
+        //Text
+        font-weight: 600;
+        font-size: 4rem;
+    }
+    .courses-list {
+        //Display & Box model
+        display: flex;
+        justify-content: space-around;
+
+        .course-container {
+            //Display & Box model
+            width: 40%;
+            border-radius: 10px;
+            margin: 24px;
+            box-shadow: 0 0 6px rgb(218, 218, 218);
+
+            //Color
+            background-color: antiquewhite;
+
+            //Other
+            overflow: hidden;
+            transition: all ease-in-out 0.2s;
+            img {
+                //Display & Box model
+                width: 100%;
+                aspect-ratio: 16/9;
+            }
+            .info {
+                //Display & Box model
+                padding: 12px 20px;
+
+                .course-name {
+                    //Display & Box model
+                    padding-bottom: 6px;
+
+                    //Text
+                    font-size: 2.4rem;
+                    font-weight: 600;
+                }
+                .course-desc {
+                    //Text
+                    text-align: justify;
+                    font-size: 1.6rem;
+                }
+                .detail {
+                    //Display & Box model
+                    margin: 8px 0 0;
+                    justify-content: space-between;
+                    padding-top: 4px;
+                    i+div {
+                        //Display & Box model
+                        margin-left: 4px;
+                    }
+                    i, div {
+                        //Text
+                        font-size: 1.4rem;
+                    }
+                    i {
+                        font-family: "Font Awesome 6 Free";
+                    }
+                    .more {
+                        .amount-mems {
+                            //Display & Box model
+                            margin-right: 12px;
+                        }
+                    }
+                }
+            }
+            &:hover {
+                //Display & Box model
+                box-shadow: 0 0 12px #999999;
+
+                //Other
+                cursor: pointer;
+            }
+        }
+    }
+}

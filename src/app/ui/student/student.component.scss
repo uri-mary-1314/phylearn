@@ -1,0 +1,69 @@
+.wrapper {
+    //Position
+    position: relative;
+    //Text
+    font-family: 'Signika', sans-serif;
+    .sub-nav {
+        //Position
+        position: -webkit-sticky;
+        position: sticky;
+        top: 112px;
+
+        //Display & Box model
+        margin-top: 12px;
+        padding: 12px 4px;
+        border-radius: 12px;
+        height: fit-content;
+        box-shadow: 0 0 10px 2px #e3e3e3;
+
+        //Color
+        background-color: #fff;
+        .title {
+            //Display & Box model
+            padding: 4px 12px;
+
+            //Text
+            font-size: 2.2rem;
+            font-weight: 500;
+        }
+        .list {
+            //Display & Box model
+            padding-left: 20px;
+            padding-right: 12px;
+
+            //Text 
+            font-size: 1.6rem;
+            text-align: justify;
+            >div {
+                //Display & Box model
+                padding: 2px 0;
+                //Other
+                cursor: pointer;
+            }
+        }
+    }
+}
+.btn {
+    //Position
+    position: fixed;
+    top: 50%;
+    transform: translateY(50%);
+    z-index: 1;
+    
+    //Display & Box model
+    padding: 12px;
+    background-color: rgb(146, 198, 201);
+    i {
+        //Text
+        font-family: "Font Awesome 6 Free"!important;
+        font-size: 2rem;
+    }
+}
+.pre-btn {
+    //Position
+    left: 0px;
+}
+.next-btn {
+    //position
+    right: 0px;
+}

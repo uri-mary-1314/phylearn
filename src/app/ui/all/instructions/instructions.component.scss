@@ -1,0 +1,40 @@
+@use 'src/styles.scss' as g;
+
+::ng-deep .container {
+    //Text
+    * {
+        font-family: 'Signika', sans-serif !important;
+    }
+    .inner-html {
+        span {
+            font-size: 1.8rem;
+        }
+        p {
+            padding-top: 4px;
+        }
+    }
+    .desc-img {
+        font-size: 1.6rem;
+    }
+}
+
+.padding {
+    height: 80px;
+}
+
+.lesson-container {
+    //Display & Box model
+    border-radius: 10px;
+    margin: 0px 20px 40px;
+    margin-top: 12px;
+    padding: 20px 24px 10px;
+    box-shadow: 0 0 10px 2px #e3e3e3;
+    //Color
+    background-color: #fff;
+    .title {
+        text-align: center;
+        font-size: 3.6rem;
+        font-weight: 600;
+        padding-bottom: 4px;
+    }
+}

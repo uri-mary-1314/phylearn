@@ -1,0 +1,135 @@
+<div class="container-fluid wrapper">
+    <div id="banner">
+        <img class="background" src="\assets\img\home-background.svg">
+        <div class="banner-heading">
+            <div class="title">Welcome to PhyLearn</div>
+            <div class="desc">Learn Physics is easily!</div>
+        </div>
+        <button class="more">Khám phá</button>
+    </div>
+</div>
+<div class="container-fluid" id="process-teaching">
+    <div class="container">
+        <div class="title">Quy trình dạy học</div>
+        <div class="process">
+            <div class="step flex-column">
+                <div class="flex-column illustration">
+                    <i class="fa-solid fa-mug-hot"></i>
+                </div>
+                <div class="desc d-flex justify-content-center">
+                    1. Khởi động
+                </div>
+            </div>
+            <div class="step flex-column">
+                <div class="desc d-flex justify-content-center">
+                    2. Hình thành kiến thức
+                </div>
+                <div class="flex-column illustration">
+                    <i class="fa-brands fa-leanpub"></i>
+                </div>
+            </div>
+            <div class="step flex-column">
+                <div class="flex-column illustration">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="desc d-flex justify-content-center">
+                    3. Luyện tập
+                </div>
+            </div>
+            <div class="step flex-column">
+                <div class="desc d-flex justify-content-center">
+                    4. Vận dụng
+                </div>
+                <div class="flex-column illustration">
+                    <i class="fa-solid fa-book"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container" id="courses">
+    <div class="title">Danh sách bài học</div>
+    <div class="courses-list d-flex">
+        <div [routerLink]="['/dashboard/lesson/1']" class="course-container d-flex flex-column">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_cMwJ9Gx55I8DLIjpjko5SZDg1Vz0rljNAg&usqp=CAU" alt="Course Image">
+            <div class="info d-flex flex-column flex-fill">
+                <div class="course-name">Ba định luật Newton</div>
+                <div class="detail d-flex">
+                    <div class="teacher-name d-flex align-items-center">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <div>Nguyễn An Khang</div>
+                    </div>
+                    <div class="more d-flex">
+                        <div class="amount-mems d-flex align-items-center">
+                            <i class="fa-solid fa-users"></i>
+                            <div>46</div>
+                        </div>
+                        <div class="date-update d-flex align-items-center">
+                            <i class="fa-solid fa-calendar"></i>
+                            <div>17-12-2023</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div [routerLink]="['/dashboard/lesson/2']" class="course-container d-flex flex-column">
+            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20210211190308/15.jpg" alt="Course Image">
+            <div class="info d-flex flex-column flex-fill">
+                <div class="course-name">Một số lực trong thực tiễn</div>
+                <div class="detail d-flex">
+                    <div class="teacher-name d-flex align-items-center">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <div>Lê Chí Phong</div>
+                    </div>
+                    <div class="more d-flex">
+                        <div class="amount-mems d-flex align-items-center">
+                            <i class="fa-solid fa-users"></i>
+                            <div>46</div>
+                        </div>
+                        <div class="date-update d-flex align-items-center">
+                            <i class="fa-solid fa-calendar"></i>
+                            <div>17-12-2023</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>
+<div class="container" id="best-teachers">
+    <div class="heading">Những người đóng góp</div>
+    <div style="width: 100%;justify-content: space-between;" class="d-flex">
+        <div class="t-1 d-flex">
+            <img src="https://tranhdecors.com/wp-content/uploads/edd/2023/09/Hinh-nen-Anime-co-gai-Butterfly-xinh-dep.jpg" alt="">
+            <div class="info d-flex flex-column align-items-center">
+                <div class="name">Sinh viên: Hoàng Thị Diễm Phúc</div>
+                <div class="quote">Lớp: Sư phạm Lý B</div>
+                <div class="subject">MSSV: 46.01.102.058</div>
+            </div>
+        </div>
+        <div class="t-1 d-flex">
+            <img src="https://mega.com.vn/media/news/2605_hinh-nen-anime-may-tinh25.jpg" alt="">
+            <div class="info d-flex flex-column align-items-center">
+                <div class="name">Sinh viên: Nguyễn An Khang</div>
+                <div class="quote">Lớp: Sư phạm Lý B</div>
+                <div class="subject">MSSV: 46.01.102.023</div>
+            </div>
+        </div>
+        <div class="t-1 d-flex">
+            <img src="https://inkythuatso.com/uploads/thumbnails/800/2022/03/anh-dai-dien-anime-nam-24-30-15-34-56.jpg" alt="">
+            <div class="info d-flex flex-column align-items-center">
+                <div class="name">Sinh viên: Lê Chí Phong</div>
+                <div class="quote">Lớp: Sư phạm Lý B</div>
+                <div class="subject">MSSV: 46.01.102.054</div>
+            </div>
+        </div>
+        <div class="t-1 d-flex">
+            <img src="../../../assets/img/nvd.jpg" alt="">
+            <div class="info d-flex flex-column align-items-center">
+                <div class="name">Sinh viên: Nguyễn Văn Dương</div>
+                <div class="quote">Lớp: Sư phạm Lý B</div>
+                <div class="subject">MSSV: 46.01.102.008</div>
+            </div>
+        </div>
+    </div>
+</div>

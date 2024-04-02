@@ -1,0 +1,173 @@
+@use 'src/styles.scss' as g;
+
+.wrapper {
+    //Display & Box model
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 20px;
+    border-radius: 60px;
+    box-shadow: 0 2px 6px 2px #fce4e4;
+
+    //Color
+    background-color: g.$white-color;
+
+    //Text
+    color: g.$black-color;
+    font-size: 1.6rem;
+    font-family: 'Signika', sans-serif;
+    user-select: none;
+
+    > div {
+        //Display & Box model
+        display: flex;
+        align-items: center;
+    }
+
+    .logo {
+        .logo__brand-name {
+            //Display & Box model
+            padding-left: 12px;
+
+            //Text
+            font-weight: 600;
+            font-size: 3.6rem;
+            color: #000B49;
+        }
+        &:hover {
+            //Other
+            cursor: pointer;
+        }
+    }
+
+    .navbar {
+        //Display & Box model
+        display: flex;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+
+        .navbar__list {
+            //Display & Box model
+            display: flex;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+
+            .navbar__item {
+                //Display & Box model
+                display: block;
+                margin: 0 2px;
+
+                //Text
+                list-style: none;
+
+                > a {
+                    //Display & Box model
+                    display: block;
+                    padding: 10px 12px;
+                    border-radius: 60px;
+
+                    //Text
+                    text-decoration: none;
+                    color: g.$black-color;
+                    font-weight: 400;
+                    font-size: 2rem;
+                    line-height: 1;
+                }
+
+                &:hover a {
+                    //Text
+                    color: g.$white-color;
+
+                    //Color
+                    background-color: #3D3C98;
+                }
+            }
+        }
+    }
+    .controller {
+        .user {
+            img {
+                //Display & Box model
+                height: 36px;
+                aspect-ratio: 1/1;
+                object-fit: cover;
+                border-radius: 50%;
+                border: 1px solid brown;
+                margin-left: 8px;
+            }
+            .username {
+                //Font
+                font-weight: 500;
+                font-size: 1.6rem;
+            }
+        }
+        .guest {
+            //Display & Box model
+            border-radius: 40px;
+            border-bottom-left-radius: 10px;
+            box-shadow: 0 0 3px 1px #000B49;
+    
+            //Text
+            font-weight: 300;
+            
+            //Color
+            background-color: #000B49;
+            color: white;
+    
+            //Other
+            transition: all 0.24s linear;
+    
+            > div {
+                //Display & Box model
+                padding: 6px 12px;
+    
+            }
+    
+            &__sign-up {
+                //Display & Box model
+                // border: 1px solid #000B49;
+                border-radius: 40px;
+                border-bottom-left-radius: 10px;
+    
+                //Color
+                background-color: #3D3C98;
+    
+                //Other
+                transition: all 0.24s linear;
+    
+                &:hover {
+                    //Text
+                    color: #3D3C98;
+    
+                    //Color
+                    background-color: white;
+    
+                    //Other
+                    cursor: pointer;
+                }
+            }
+        }
+        .guest:has(.guest__sign-in:hover) {
+            .guest__sign-in {
+                //Text
+                color: #000B49;
+            }
+    
+            //Color
+            background-color: white;
+    
+            //Other
+            cursor: pointer;
+        }
+    }
+}
+
+.active {
+    //Text
+    color: g.$white-color !important;
+
+    //Color
+    background-color: #3D3C98;
+}

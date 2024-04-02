@@ -1,0 +1,117 @@
+[
+    {
+        "id": 1,
+        "title": "Thứ nguyên của gia tốc a là ?",
+        "options": [
+            {
+                "A":"A",
+                "a":"$[L].[T]$"
+            },
+            {
+                "A":"B",
+                "a":"$[L].[T^2]$"
+            },
+            {
+                "A":"C",
+                "a":"$[L^{-2}].[T]$"
+            },
+            {
+                "A":"D",
+                "a":"$[L].[T^{-2}]$"
+            }
+        ],
+        "answer": "$[L].[T^{-2}]$"
+    },
+    {
+        "id": 2,
+        "title": "Thứ nguyên của lực F là ?",
+        "options": [
+            {
+                "A":"A",
+                "a":"$[M].[L].[T]$"
+            },
+            {
+                "A":"B",
+                "a":"$[M].[L].[T^{-2}]$"
+            },
+            {
+                "A":"C",
+                "a":"$[M].[L].[T^2]$"
+            },
+            {
+                "A":"D",
+                "a":"$[M].[L^2].[T^{-2}]$"
+            }
+        ],
+        "answer": "$[M].[L].[T^{-2}]$"
+    },
+    {
+        "id": 3,
+        "title": "Đơn vị của lực F là đơn vị nào sau đây ?",
+        "options": [
+            {
+                "A":"A",
+                "a":"$kg.m.s$"
+            },
+            {
+                "A":"B",
+                "a":"$N/m$"
+            },
+            {
+                "A":"C",
+                "a":"$N.m^2$"
+            },
+            {
+                "A":"D",
+                "a":"$kg.m/s^2$"
+            }
+        ],
+        "answer": "$kg.m/s^2$"
+    },
+    {
+        "id": 4,
+        "title": "Cho một vật có khối lượng 3 kg, chịu tác dụng của lực kéo F = 30 N trên đoạn đường thẳng không ma sát. Tính gia tốc mà vật đạt được.",
+        "options": [
+            {
+                "A":"A",
+                "a":"$10 m/s$"
+            },
+            {
+                "A":"B",
+                "a":"$10 m^2$"
+            },
+            {
+                "A":"C",
+                "a":"$10 m/s^2$"
+            },
+            {
+                "A":"D",
+                "a":"$10 ms$"
+            }
+        ],
+        "answer": "$10 m/s^2$"
+    },
+    {
+        "id": 5,
+        "title": "Trong trường hợp nào sau đây thì các lực là cân bằng",
+        "options": [
+            {
+                "A":"A",
+                "a":"Vận động viên giữ tạ, quả táo rơi, tên lửa đang tăng tốc"
+            },
+            {
+                "A":"B",
+                "a":"Một vật được treo thẳng đứng bởi một sợi dây, vận động viên giữ tạ, hai bạn cùng tác dụng lên quyển sách nhưng quyển sách không di chuyển"
+            },
+            {
+                "A":"C",
+                "a":"Quả táo rơi, tên lửa đang tăng tốc, chiếc xe đang giảm tốc"
+            },
+            {
+                "A":"D",
+                "a":"Vận động viên giữ tạ, chiếc xe tăng tốc, quả bóng lăn từ trên dốc xuống"
+            }
+        ],
+        "answer": "Một vật được treo thẳng đứng bởi một sợi dây, vận động viên giữ tạ, hai bạn cùng tác dụng lên quyển sách nhưng quyển sách không di chuyển"
+    }
+]

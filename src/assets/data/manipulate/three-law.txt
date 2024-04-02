@@ -1,0 +1,209 @@
+<div class="title">
+        XÂY DỰNG CHỦ ĐỀ TÍCH HỢP TRONG DẠY HỌC VẬT LÍ THPT CHỦ ĐỀ TÍCH HỢP GIẢI QUYẾT VẤN ĐỀ THỰC TIỄN
+    </div>
+    <div class="title">
+        TÊN CHỦ ĐỀ: CHẾ TẠO MÔ HÌNH TÊN LỬA NƯỚC
+    </div>
+    <div class="heading">A. Mô tả vấn đề thực tiễn</div>
+    <p>
+        Vật lí là môn học thực nghiệm có vai trò hết sức quan trọng trong sự phát triển của nhân loại, 
+        có thể nói Vật lí là cuộc sống. Từ việc tìm hiểu những quy luật vận động của tự nhiên mà các 
+        nhà khoa học đã tìm ra rất nhiều những định luật, những nguyên lí, các lý thuyết, cơ sở để giải 
+        thích, để áp dụng vào thực tiễn.
+    </p>
+    <p>
+        Là một người giáo viên, ta không chỉ giảng dạy những kiến thức trong nhà trường mà còn phải có 
+        nhiệm vụ là tạo nên các sân chơi phù hợp, bổ ích, kích thích sự say mê nghiên cứu, sáng tạo tìm 
+        tòi của học sinh.
+    </p>
+    <p>
+        Sự kết hợp của nước, khí nén và một chai nước ngọt bằng nhựa đóng vai trò là nguồn động lực lớn 
+        cho tên lửa. Học sinh tìm hiểu và vận dụng kiến thức về lực ma sát, áp suất, áp suất chất lỏng, 
+        bình thông nhau. Áp suất khí quyển, định luật bảo toàn động lượng..., để thiết kế và chế tạo tên 
+        lửa nước với những tiêu chí cụ thể. Sau khi hoàn thành, học sinh sẽ được thử nghiệm vận hành mô 
+        hình và tiến hành đánh giá chất lượng sản phẩm.
+    </p>
+    <p>
+        Nhằm tạo hoạt động giúp các em học sinh không chỉ là vận dụng các kiến thức đã được học vào 
+        trong thực tiễn mà còn tạo sự gắn kết giữa các em học sinh, nâng cao khả năng làm việc nhóm, 
+        tương tác giữa các học sinh.
+    </p>
+    <div class="heading">B. Kiến thức bổ trợ</div>
+    <div class="heading-1">Định luật III Newton</div>
+    <div class="heading-2">Tương tác giữa các đối tượng</div>
+    <div class="knowledge">
+        <p>
+            Khi một vật tác dụng một lực lên vật khác thì vật đó cũng chịu tác dụng của lực đó. Khi 
+            đó ta nói có lực tương tác giữa hai vật.
+        </p>
+    </div>
+    <div class="heading-2">Nội dung định luật III Newton</div>
+    <div class="knowledge">
+        <p>
+            Định luật III Newton phát biểu rằng: Đối với mọi lực tác dụng luôn có một phản lực có cùng 
+            độ lớn. Nói cách khác, các lực tương tác giữa hai vật luôn là những cặp lực cùng phương, 
+            cùng độ lớn, ngược chiều và khác điểm đặt.
+        </p>
+    </div>
+    <div class="heading-2">Biểu thức của định luật II Newton</div>
+    <div class="knowledge">
+        <p>$$ \vec{F_{AB}} = -\vec{F_{BA}} $$</p>
+    </div>
+    <div class="heading-2">Ứng dụng của định luật III Newton</div>
+    <div class="knowledge">
+        <p>
+            Định luật 3 Newton chứng minh rằng các lực không xuất hiện riêng lẻ mà sẽ xuất hiện thành 
+            từng cặp lực và phản lực. Lực chỉ xuất hiện khi có một tương tác nào đó giữa 2 hay nhiều vật.
+        </p>
+    </div>
+    <div class="heading-1">Lực và phản lực tròn định luật II Newton có các đặc điểm</div>
+    <div class="knowledge">
+        <p>Lực và phản lực luôn xuất hiện thành từng cặp (luôn xuất hiện hoặc mất đi đồng thời).</p>
+        <p>
+            Lực và phản lực cùng tác dụng theo một đường thẳng (cùng phương), cùng độ lớn nhưng ngược 
+            chiều (hai lực này là hai lực trực đối).
+        </p>
+        <p>
+            Lực và phản lực không cân bằng nhau (vì chúng đặt vào hai vật khác nhau).
+        </p>
+        <p>Cặp lực và phản lực là hai lực cùng loại.</p>
+    </div>
+    <div class="heading">C. Phiếu đánh giá</div>
+    <div class="heading-1">Đánh giá bản vẽ kỹ thuật</div>
+    <div class="rate">
+        (4đ) Bản vẽ thể hiện được hình ảnh và cấu tạo của tên lửa (chỉ rõ tên các bộ phận 
+        của sản phẩm trên bản vẽ)
+    </div>
+    <div class="rate">
+        (3đ) Bản vẽ mô tả được chất liệu và kích thước các bộ phận của sản phẩm (ghi chú vật liệu sử 
+        dụng và kích thước các bộ phận của thiết bị…)
+    </div>
+    <div class="rate">
+        (3đ) Mô tả được nguyên lý hoạt động và số liệu cụ thể về chất lượng các chất sử dụng để phóng 
+        tên lửa (có thể sử dụng các mũi tên, ghi chú mô tả cơ chế hoạt động của tên lửa)
+    </div>
+    <div class="heading-1">Đánh giá sản phẩm</div>
+    <div class="rate">
+        (1đ) Tên lửa phóng thành công an toàn
+    </div>
+    <div class="rate">
+        (6đ) Tên lửa bay cao, thẳng
+    </div>
+    <div class="rate">
+        (2đ) Hình dạng giống với hình cơ bản của tên lửa trong thực tế 
+    </div>
+    <div class="rate">
+        (1đ) Tên lửa trang trí nổi bật, đẹp mắt
+    </div>
+    <div class="heading">D. Các video, kiến thức, học liệu hỗ trợ học sinh thực hiện </div>
+    <div class="heading-1">
+        1. Các định luật Newton và ứng dụng
+    </div>
+    <a href="https://text.loga.vn/tai-lieu/cac-dinh-luat-niuton-va-ung-dung-vat-ly-lop-10-33096">
+        https://text.loga.vn/tai-lieu/cac-dinh-luat-niuton-va-ung-dung-vat-ly-lop-10-33096
+    </a>
+    <div class="heading-1">2. Video chế tạo tên lửa nước</div>
+    <a style="display: block;" href="https://www.youtube.com/watch?v=dqYnESoZhzA" target="_blank">
+        Link: https://www.youtube.com/watch?v=dqYnESoZhzA
+    </a><div class="ex">
+        <iframe width="860" height="480" src="https://www.youtube.com/embed/dqYnESoZhzA?si=ZXwauFDBAnXSDeaN" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+            encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+        </iframe>
+    </div>
+    <div class="heading-1">3. Học liệu "Cách chế tạo tên lửa nước"</div>
+    <div class="heading-2">3.1. Nguyên vật liệu và dụng cụ</div>
+    <p>
+        Nguyên vật liệu: 2 chai nhựa 1,5l, ống nhựa phi 21, phi 42, nắp nhựa phi 21, cút chữ T phi 21, van xe máy, dây rút, băng keo đen.
+    </p>
+    <p>
+        Dụng cụ: dao, kéo.
+    </p>
+    <div class="heading-2">3.2. Các bước chế tạo, lắp ráp thí nghiệm</div>
+    <div class="heading-3">3.2.1. Giàn phóng</div>
+    <ul>
+        <li>Chuẩn bị 1m ống PVC đường kính 21mm</li>
+        <li>Cắt 4 đoạn dài 15cm</li>
+        <li>Cắt 1 đoạn dài 35cm </li>
+        <li>1 đoạn 5cm ống PVC đường kính 40mm</li>
+        <li>3 đầu bịt ống 21mm</li>
+        <li>2 co chữ T</li>
+        <li>8 sợi dây rút nhựa </li>
+        <li>1 van xe máy</li>
+        <li>1 miếng xăm xe </li>
+        <li>Keo dán ống nước PVC</li>
+        <li>1 cuộn keo lụa quấn ống nước</li>
+    </ul>
+    <em>Bước 1: Khóa tên lửa</em>
+    <ul>
+        <li>Dùng 6 sợi dây rút nhựa quấn quanh đoạn ống 35cm </li>
+        <li>Cột cố định 6 sợi dây lại và dùng keo nến để gia cố thêm </li>
+        <li>Luồn ống 40cm vào để khóa chai</li>
+    </ul>
+    <div class="img">
+        <img src="assets/img/m1.png" alt="">
+    </div>
+    <em>Bước 2: Van bơm</em>
+    <ul>
+        <li>Dùng 1 van xe máy</li>
+        <li>Lấy 1 đầu bịt ống 21mm, dùng mũi dao hơ nóng, để khoét 1 lỗ tròn có đường kính bằng đường kính van xe. </li>
+        <li>
+            Dùng xăm xe (ruột xe) làm gion chống xì hơi. Cắt một mẩu xăm xe hình tròn nhét vừa vào đầu bịt ống 21mm. 
+            Khoét 1 lỗ nhó sỏ vừa van xe. Đề phần cao su này giữa van và đầu bịt.
+        </li>
+    </ul>
+    <em>Bước 3: Giàn phóng</em>
+    <ul>
+        <li>Gắn các đoạn ống nước và dùng keo dán ống nước để cổ định.</li>
+        <li>Ống phóng tên lửa cố định góc bắn trong khoảng 700-800 so với mặt đất.</li>
+    </ul>
+    <div class="img">
+        <img src="assets/img/m2.png" alt="">
+    </div>
+    <div class="heading-3">3.2.2. Tên lửa</div>
+    <em>a. Thân tên lửa</em>
+    <p>
+        Lấy 1 chai PET 1.5 lít loại có đường kính miệng 21mm (chai nước suối). Chai 1.5 lit, đường kính miệng chai 21mm.
+    </p>
+    <em>b. Cánh tên lửa</em>
+    <p>
+        Giấy bìa cứng hay nhựa mềm cắt theo mẫu. Dùng keo nến hay keo 2 mặt dán vào thân chai theo 3 hướng đều nhau $(120^o)$.
+    </p>
+    <div class="img">
+        <img src="assets/img/m3.png" alt="">
+    </div>
+    <em>c. Đầu tên lửa</em>
+    <p>
+        Tên lửa không mang dù. Lấy 1 chai PET 1.5 lít cắt đoạn 1/4 chai bắt đầu từ miệng chai.
+    </p>
+    <div class="img">
+        <img src="assets/img/m4.png" alt="">
+    </div>
+    <em>d. Lắp ráp</em>
+    <p>
+        Dùng keo 2 mặt, keo nến, và băng keo màu bản lớn (5cm) để dán các phần của tên lửa lại
+    </p>
+    <div class="img">
+        <img src="assets/img/m5.png" alt="">
+    </div>
+    <div class="heading">E. Các quy định an toàn tên lửa nước</div>
+    <ul>
+        <li>Tuyệt đối KHÔNG được hướng tên lửa vào người khác khi đang bơm</li>
+        <li>Khi bắt đầu bơm, người bơm và người điều khiển phải đứng cách tên lửa tối thiểu 0.5m</li>
+        <li>Chỉ dùng vật liệu nhẹ như giấy, plastic, nhựa mềm để làm cánh, mũi và trang trí</li>
+        <li>KHÔNG được dùng vật liệu kim loại hay gạch, cát đá, thủy tinh, gỗ </li>
+        <li>Chai làm tên lửa phải là chai nhựa plastic (PET) dung tích không quá 1.5l. KHÔNG được dùng chai thủy tinh làm tên lửa</li>
+        <li>Khối lượng tên lửa khi chưa có nước KHÔNG được vượt quá 300g đối với tên lửa 1 tầng, và 700g với tên lửa ghép tầng</li>
+        <li>KHÔNG gắn các vật sắc nhọn trên đầu và cánh tên lửa (tăm, nhựa cứng…)</li>
+        <li>Áp suất bơm tối đa là 80psi. KHÔNG được sử dụng thiết bị nén khí khác ngoài bơm tay</li>
+        <li>Truớc khi giật chốt phóng tên lửa phải thông báo cho nguời xung quanh mình (đếm ngược)</li>
+        <li>Khi tên lửa rơi trên nóc nhà hay vướng trên cao (cây, dây điện…) tuyệt đối KHÔNG leo lên lấy lại</li>
+        <li>KHÔNG đuợc đón bắt tên lửa khi đang rơi</li>
+        <li>KHÔNG được gắn các loại chất gây nổ (pháo hoa, thuốc phóng…) vào tên lửa nước </li>
+        <li>Dàn phóng phải được dán kín và chắc chắn. Phải kiểm tra các mối nối ống nước trước khi tiến hành bắn</li>
+        <li>Khi bắn, phải có nguời cảnh giới tên lửa, để xác định huớng bay và vị trí rơi của tên lửa, thông báo mọi người di chuyển đến vị trí an toàn</li>
+        <li>Khi bắn phải tránh chỗ đông nguời, KHÔNG bắn tại khu dân cư, đường xá. Phải có sự cho phép của người lớn khi đến bắn tại một nơi nào đó</li>
+        <li>KHÔNG được hướng tên lửa vào các mục tiêu cụ thể như người, nhà cửa, xe cộ… </li>
+        <li>Phải có ít nhất 2 người khi tham gia bắn tên lửa nước. Một người bơm và một người định hướng và giữ chốt</li>
+        <li>Người tham gia vào đội bắn tên lửa phải là người có kinh nghiệm và đã hiểu các quy định về an toàn tên lửa. Tuyệt đối KHÔNG để người chưa được huấn luyện làm nhiệm vụ giật chốt bắn hay định hướng tên lửa.</li>
+    </ul>

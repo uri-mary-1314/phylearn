@@ -1,0 +1,94 @@
+@use 'src/styles.scss' as g;
+
+.package {
+    //Display & Box model
+    min-height: 200px;
+    //Color
+    background-color: #212121;
+    //Text
+    font-family: 'Signika', sans-serif;
+    font-size: 1.4rem;
+    .wrapper {
+        .footer {
+            display: flex;
+            > div {
+                padding: 20px 32px 20px;
+                box-shadow: 3px 0px 4px rgba(0, 0, 0, 0.2);
+                min-height: 200px;
+            }
+            .title {
+                color: g.$white-color;
+                font-size: 2.2rem;
+                padding-bottom: 8px;
+                border-bottom: 2px solid #67c4ec;
+            }
+            &-about-us {
+                flex: 2;
+                p {
+                    color: g.$white-color;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    text-align: justify;
+                    line-height: 2rem;
+                }
+                .footer-btn {
+                    padding: 8px 8px;
+                    border-radius: 4px;
+                    font-weight: 600;
+                    box-shadow: 0 0 8px g.$black-color;
+                    border: none;
+                    background-color: #67c4ec;
+                    &:hover {
+                        cursor: pointer;
+                        opacity: 0.92;
+                    }
+                }
+            }
+            &-contact {
+                flex: 1;
+                &--item {
+                    margin-top: 20px;
+                    .contact-item-title {
+                        display: flex;
+                        padding-bottom: 2px;
+                    }
+                    i {
+                        color: #67c4ec;
+                        display: flex;
+                        justify-content: center;
+                        width: 20px;
+                        font-size: 1.6rem;
+                        padding-right: 4px;
+                    }
+                    div, p {
+                        color: g.$white-color;
+                    }
+                    p {
+                        line-height: 2rem;
+                    }
+                }
+            }
+            &-connect {
+                flex: 1;
+                p {
+                    color: g.$white-color;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    text-align: justify;
+                    line-height: 2rem;
+                }
+                .list-connection {
+                    i {
+                        color: #67c4ec;
+                        font-size: 3.2rem;
+                        margin-right: 12px;
+                        &:hover {
+                            opacity: 0.8;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
