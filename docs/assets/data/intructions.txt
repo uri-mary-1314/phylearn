@@ -1,0 +1,13 @@
+<h1>C&aacute;c bước sử dụng</h1>
+<p class="d-flex justify-content-center" style="text-align: justify;"><span style="border:none;"><img src="https://lh7-us.googleusercontent.com/k0La6-dMo529OmmFytT50zfHL2rWeBOaZcP5DVAoPeNaxHF9gb3uusygv_1hR4WIdejAzT7slVjNp0IBw7wcAf6WD9xGqBta0UPk7k_be1eFPjo1BnsJEjgeHqJIc2nwZiu8-vqUoL16" width="643" height="296"></span><br></p>
+<p class="desc-img" style="text-align: center;"><em>H&igrave;nh 1. C&aacute;c bước sử dụng trang web</em></p>
+<p style="text-align: justify;"><span style="font-size:13pt;">Mỗi b&agrave;i sẽ c&oacute; phần nội dung l&yacute; thuyết bao gồm:</span></p>
+<ul>
+    <li style="list-style-type:disc;font-size:13pt;">
+        <p style="text-align: justify;"><span style="font-size:13pt;">Hoạt động 1: Khởi động</span></p>
+    </li>
+    <li style="list-style-type:disc;font-size:13pt;">
+        <p style="text-align: justify;"><span style="font-size:13pt;">Hoạt động 2: H&igrave;nh th&agrave;nh kiến thức</span></p>
+    </li>
+</ul>
+<p style="text-align: justify;"><span style="font-size:13pt;">B&ecirc;n cạnh đ&oacute; sẽ c&oacute; c&aacute;c hoạt động luyện tương ứng nội dung luyện tập tr&ecirc;n thanh điều hướng nhỏ b&ecirc;n tay tr&aacute;i, vận dụng sẽ tương ứng hoạt động vận dụng v&agrave; kiểm tra l&agrave; b&agrave;i kiểm tra trắc nghiệm c&oacute; t&iacute;nh thời gian.</span></p>

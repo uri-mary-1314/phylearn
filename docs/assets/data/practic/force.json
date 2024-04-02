@@ -1,0 +1,301 @@
+[
+    {
+        "id": 1,
+        "title": "Chọn đáp án đúng",
+        "options": [
+            {
+                "A":"A",
+                "a":"Trọng lực là lực hấp dẫn của Trái Đất tác dụng lên vật."
+            },
+            {
+                "A":"B",
+                "a":"Biểu thức của trọng lực là $\\vec{P} = m.\\vec{g}$"
+            },
+            {
+                "A":"C",
+                "a":"Trọng lực có điểm đặt tại trọng tâm của vật, hướng vào tâm Trái Đất, độ lớn $P = mg$."
+            },
+            {
+                "A":"D",
+                "a":"Cả A, B và C đều đúng."
+            }
+        ],
+        "answer": "Cả A, B và C đều đúng."
+    },
+    {
+        "id": 2,
+        "title": "Chọn đáp án đúng. Đặc điểm của lực ma sát nghỉ là",
+        "options": [
+            {
+                "A":"A",
+                "a":"Điểm đặt trên vật ngay tại vị trí tiếp xúc của hai bề mặt."
+            },
+            {
+                "A":"B",
+                "a":"B. Phương tiếp tuyến và ngược chiều với xu hướng chuyển động tương đối của hai bề mặt tiếp xúc."
+            },
+            {
+                "A":"C",
+                "a":"Độ lớn lực ma sát nghỉ bằng độ lớn của lực tác dụng gây ra xu hướng chuyển động"
+            },
+            {
+                "A":"D",
+                "a":"Cả A, B và C đều đúng."
+            }
+        ],
+        "answer": "Cả A, B và C đều đúng."
+    },
+    {
+        "id": 3,
+        "title": "Chọn đáp án đúng. Độ lớn của lực ma sát trượt",
+        "options": [
+            {
+                "A":"A",
+                "a":"Không phụ thuộc vào diện tích tiếp xúc và tốc độ chuyển động của vật."
+            },
+            {
+                "A":"B",
+                "a":"Phụ thuộc vào vật liệu và tính chất của hai bề mặt tiếp xúc."
+            },
+            {
+                "A":"C",
+                "a":"Tỉ lệ với độ lớn của áp lực giữa hai bề mặt tiếp xúc $F = μ.N$"
+            },
+            {
+                "A":"D",
+                "a":"Cả A, B và C đều đúng."
+            }
+        ],
+        "answer": "Cả A, B và C đều đúng."
+    },
+    {
+        "id": 4,
+        "title": "Điều gì xảy ra đối với hệ số ma sát trượt giữa 2 mặt tiếp xúc nếu lực pháp tuyến ép hai mặt tiếp xúc tăng lên ?",
+        "options": [
+            {
+                "A":"A",
+                "a":"Tăng lên."
+            },
+            {
+                "A":"B",
+                "a":"Giảm đi."
+            },
+            {
+                "A":"C",
+                "a":"Không đổi."
+            },
+            {
+                "A":"D",
+                "a":"Tùy trường hợp, có thể tăng lên hoặc giảm đi."
+            }
+        ],
+        "answer": "Không đổi."
+    },
+    {
+        "id": 5,
+        "title": "Một vật có vận tốc đầu có độ lớn là $10m/s$ trượt trên mặt phẳng ngang. Hệ số ma sát trượt giữa vật và mặt phẳng là $0,10$. Hỏi vật đi được quãng đường bao nhiêu thì dừng lại? Lấy $g=10 m/s^2$. Chọn chiều dương là chiều chuyển động của vật.",
+        "options": [
+            {
+                "A":"A",
+                "a":"$20m$"
+            },
+            {
+                "A":"B",
+                "a":"$50m$"
+            },
+            {
+                "A":"C",
+                "a":"$100m$"
+            },
+            {
+                "A":"D",
+                "a":"$500m$"
+            }
+        ],
+        "answer": "$50m$"
+    },
+    {
+        "id": 6,
+        "title": "Biểu thức lực đẩy Ác–si–mét tác dụng lên vật khi được đặt ở trong chất lỏng.",
+        "options": [
+            {
+                "A":"A",
+                "a":"$F_A=ρ.g.V$"
+            },
+            {
+                "A":"B",
+                "a":"$F_A=ρ.g$"
+            },
+            {
+                "A":"C",
+                "a":"$F_A = g.V$"
+            },
+            {
+                "A":"D",
+                "a":"$ρ = \\frac{m}{V}$"
+            }
+        ],
+        "answer": "$F_A=ρ.g.V$"
+    },
+    {
+        "id": 7,
+        "title": "Chọn đáp án sai. Nêu một số ứng dụng của lực ma sát trong đời sống.",
+        "options": [
+            {
+                "A":"A",
+                "a":"Lực ma sát xuất hiện khi ta mài dao."
+            },
+            {
+                "A":"B",
+                "a":"Lực ma sát xuất hiện trong ổ bi của trục máy khi hoạt động."
+            },
+            {
+                "A":"C",
+                "a":"Lực ma sát xuất hiện khi hành lí di chuyển trên băng chuyền."
+            },
+            {
+                "A":"D",
+                "a":"Lực ma sát xuất hiện trong nồi áp suất giúp ta ninh chín thức ăn."
+            }
+        ],
+        "answer": "Lực ma sát xuất hiện trong nồi áp suất giúp ta ninh chín thức ăn."
+    },
+    {
+        "id": 8,
+        "title": "Một vật khối lượng 2 kg được treo vào đầu một sợi dây, đầu kia cố định. Biết vật ở trạng thái cân bằng. Tính lực căng dây. Lấy $g = 10 m/s^2$.",
+        "options": [
+            {
+                "A":"A",
+                "a":"$15 N$"
+            },
+            {
+                "A":"B",
+                "a":"$10 N$"
+            },
+            {
+                "A":"C",
+                "a":"$40 N$"
+            },
+            {
+                "A":"D",
+                "a":"$20 N$"
+            }
+        ],
+        "answer": "$20 N$"
+    },
+    {
+        "id": 9,
+        "title": "Chọn đáp án đúng. Lực căng dây có đặc điểm:",
+        "options": [
+            {
+                "A":"A",
+                "a":"Điểm đặt là điểm mà đầu dây tiếp xúc với vật."
+            },
+            {
+                "A":"B",
+                "a":"Phương trùng với chính sợi dây."
+            },
+            {
+                "A":"C",
+                "a":"Chiều hướng từ hai đầu sợi dây vào phần giữa sợi dây."
+            },
+            {
+                "A":"D",
+                "a":"Cả A, B và C đều đúng."
+            }
+        ],
+        "answer": "Cả A, B và C đều đúng."
+    },
+    {
+        "id": 10,
+        "title": "Một vật có khối lượng $1 kg$ được giữ yên trên một mặt phẳng nghiêng bởi một sợi dây song song với đường dốc chính. Biết $α = 300$. Cho $g = 10 m/s^2$. Lực ép của vật lên mặt phẳng nghiêng là bao nhiêu?",
+        "options": [
+            {
+                "A":"A",
+                "a":"$5√3 N$"
+            },
+            {
+                "A":"B",
+                "a":"$5 N$"
+            },
+            {
+                "A":"C",
+                "a":"$4,9√3 N$"
+            },
+            {
+                "A":"D",
+                "a":"$4,9 N$"
+            }
+        ],
+        "answer": "$5√3 N$"
+    },
+    {
+        "id": 11,
+        "title": "Một toa tàu có khối lượng $80 tấn$ chuyển động thẳng đều dưới tác dụng của lực kéo nằm ngang $F=6.104 N$. Lấy $g = 10 m/s^2$. Hệ số ma sát giữa tàu và đường ray là ?",
+        "options": [
+            {
+                "A":"A",
+                "a":"$0,075$"
+            },
+            {
+                "A":"B",
+                "a":"$0,06$"
+            },
+            {
+                "A":"C",
+                "a":"$0,02$"
+            },
+            {
+                "A":"D",
+                "a":"$0,08$"
+            }
+        ],
+        "answer": "$0,075$"
+    },
+    {
+        "id": 12,
+        "title": "Vật khối lượng $m$ nằm trên ván nằm ngang. Nâng dần một đầu tấm ván lên, hỏi góc hợp bởi mặt phẳng ván và phương ngang phải bằng bao nhiêu thì vật bắt đầu trượt. Biết hệ số ma sát trượt là $0,577$.",
+        "options": [
+            {
+                "A":"A",
+                "a":"$26^o$"
+            },
+            {
+                "A":"B",
+                "a":"$30^o$"
+            },
+            {
+                "A":"C",
+                "a":"$35^o$"
+            },
+            {
+                "A":"D",
+                "a":"$60^o$"
+            }
+        ],
+        "answer": "$30^o$"
+    },
+    {
+        "id": 13,
+        "title": "Khi vật lăn trên một vật khác",
+        "options": [
+            {
+                "A":"A",
+                "a":"Lực ma sát lăn xuất hiện ở chỗ tiếp xúc giữa hai vật và có tác dụng cản trở sự lăn đó."
+            },
+            {
+                "A":"B",
+                "a":"Lực ma sát lăn xuất hiện ở chỗ tiếp xúc giữa hai vật và không có tác dụng cản trở sự lăn đó."
+            },
+            {
+                "A":"C",
+                "a":"Lực ma sát lăn không xuất hiện ở chỗ tiếp xúc giữa hai vật."
+            },
+            {
+                "A":"D",
+                "a":"Lực ma sát lăn xuất hiện ở chỗ tiếp xúc giữa hai vật và có tác dụng làm gia tăng sự lăn đó."
+            }
+        ],
+        "answer": "Lực ma sát lăn xuất hiện ở chỗ tiếp xúc giữa hai vật và có tác dụng cản trở sự lăn đó."
+    }
+]
