@@ -21,6 +21,7 @@ import { MathjaxModule } from "mathjax-angular";
 import { GlobalService } from './global.service';
 import { ReactiveFormsModule } from '@angular/forms';
 import { StudentModule } from './ui/student/student.module';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,13 @@ import { StudentModule } from './ui/student/student.module';
     StudentModule,
     MathjaxModule.forRoot(),
   ],
-  providers: [GlobalService],
+  providers: [
+    GlobalService,
+    { 
+      provide: LocationStrategy, 
+      useClass: HashLocationStrategy 
+    }
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule { }
