@@ -73,6 +73,12 @@
         width: 46%;
         border-radius: 8px;
     }
+    video {
+        aspect-ratio: 16/9;
+        margin: auto;
+        width: 32%;
+        border-radius: 8px;
+    }
     .img {
         //display & box model
         display: flex;

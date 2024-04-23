@@ -42,6 +42,20 @@
     <div class="knowledge">
         Vật luôn có xu hướng bảo toàn chuyển động của mình. Tính chất này gọi là quán tính của vật.
     </div>
+    <div class="heading-2">
+        c. Một số video ngắn mô tả quán tính
+    </div>
+    <div class="img">
+        <video preload muted autoplay loop>
+          <source src="./assets/video/quan-tinh-1.mov" type="video/mp4">
+        </video>
+        <video preload muted autoplay loop>
+          <source src="./assets/video/quan-tinh-2.mov" type="video/mp4">
+        </video>
+        <video preload muted autoplay loop>
+          <source src="./assets/video/quan-tinh-3.mov" type="video/mp4">
+        </video>
+    </div>
     <div class="heading-1">3. Định luật I Newton</div>
     <div class="knowledge">
         Một vật nếu không chịu tác dụng của lực nào hoặc chịu tác dụng của hợp lực bằng 0 thì vật sẽ giữ nguyên trạng thái đứng yên hoặc chuyển động thẳng đều mãi mãi.
