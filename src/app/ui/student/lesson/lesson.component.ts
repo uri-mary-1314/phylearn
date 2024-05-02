@@ -24,7 +24,6 @@ export class LessonComponent implements OnInit {
   } 
 
   getLesson() {
-    console.log(this.id)
     this.service.getLesson(this.id).subscribe(
       (res: string) => {
         this.sanitizedWordDocumentHtml = this.sanitizer.bypassSecurityTrustHtml(res);

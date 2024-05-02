@@ -33,17 +33,20 @@ export class StudentComponent implements OnInit {
     private route: ActivatedRoute
   ) { }
   nextStep() {
+    this.step++;
     if (this.step === 4 && this.id === 1) {
       return;
     }
-    else if (this.id === 2 && this.step === 2) {
+    else if (this.id === 2 && this.step === 3) {
+      this.step--;
       return;
     }
     else {
-      this.step++;
+      // this.step++;
       this.activeComponent = this.changeComponent();
       sessionStorage.setItem(keyStep, String(this.step))
     }
+    console.log(this.step)
   }
 
   preStep() {
@@ -55,6 +58,7 @@ export class StudentComponent implements OnInit {
       this.activeComponent = this.changeComponent();    
       sessionStorage.setItem(keyStep, String(this.step))
     }
+    console.log(this.step)
   }
 
   changeComponent() {
@@ -68,7 +72,7 @@ export class StudentComponent implements OnInit {
             return ManipulateComponent
           } else {
             console.log('File does not exist.');
-            this.step = 2
+            // this.step = 2
             return PracticComponent
           }
         })

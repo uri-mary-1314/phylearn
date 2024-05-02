@@ -1,118 +1,118 @@
 [
     {
         "id": 1,
-        "title": "Chọn đáp án đúng",
+        "title": ": Đơn vị của Lực là gì?",
         "options": [
             {
                 "A":"A",
-                "a":"Trọng lực là lực hấp dẫn của Trái Đất tác dụng lên vật."
+                "a":"$J$"
             },
             {
                 "A":"B",
-                "a":"Biểu thức của trọng lực là $\\vec{P} = m.\\vec{g}$"
+                "a":"$W$"
             },
             {
                 "A":"C",
-                "a":"Trọng lực có điểm đặt tại trọng tâm của vật, hướng vào tâm Trái Đất, độ lớn $P = mg$."
+                "a":"$N$"
             },
             {
                 "A":"D",
-                "a":"Cả A, B và C đều đúng."
+                "a":"$J.s$"
             }
         ],
-        "answer": "Cả A, B và C đều đúng."
+        "answer": "$N$"
     },
     {
         "id": 2,
-        "title": "Chọn đáp án đúng. Đặc điểm của lực ma sát nghỉ là",
+        "title": "Một vật hình cầu có thể tích là 2 $m^3$, được thả vào trong một hồ nước, biết vật chìm hoàn toàn vào trong nước, và khối lượng riêng của nước là 1000 $kg/m^3$. Hãy tính lực đẩy Ác-si-mét tác dụng lên vật lúc này. Lấy $g = 10 m/s^2.$",
         "options": [
             {
                 "A":"A",
-                "a":"Điểm đặt trên vật ngay tại vị trí tiếp xúc của hai bề mặt."
+                "a":"$20000N$"
             },
             {
                 "A":"B",
-                "a":"B. Phương tiếp tuyến và ngược chiều với xu hướng chuyển động tương đối của hai bề mặt tiếp xúc."
+                "a":"$30000N$"
             },
             {
                 "A":"C",
-                "a":"Độ lớn lực ma sát nghỉ bằng độ lớn của lực tác dụng gây ra xu hướng chuyển động"
+                "a":"$40000N$"
             },
             {
                 "A":"D",
-                "a":"Cả A, B và C đều đúng."
+                "a":"$50000N$"
             }
         ],
-        "answer": "Cả A, B và C đều đúng."
+        "answer": "$20000N$"
     },
     {
         "id": 3,
-        "title": "Chọn đáp án đúng. Độ lớn của lực ma sát trượt",
+        "title": "Một vật có khối lượng 3kg đang trượt trên một mặt sàn làm bằng gỗ, biết hệ số ma sát khi vật trượt trên sàn là 0,2. Hãy tính độ lớn lực ma sát tác dụng lên vật. Lấy $g = 10 m/s^2$.",
         "options": [
             {
                 "A":"A",
-                "a":"Không phụ thuộc vào diện tích tiếp xúc và tốc độ chuyển động của vật."
+                "a":"$9N$"
             },
             {
                 "A":"B",
-                "a":"Phụ thuộc vào vật liệu và tính chất của hai bề mặt tiếp xúc."
+                "a":"$6N$"
             },
             {
                 "A":"C",
-                "a":"Tỉ lệ với độ lớn của áp lực giữa hai bề mặt tiếp xúc $F = μ.N$"
+                "a":"$2N$"
             },
             {
                 "A":"D",
-                "a":"Cả A, B và C đều đúng."
+                "a":"$8N$"
             }
         ],
-        "answer": "Cả A, B và C đều đúng."
+        "answer": "$6N$"
     },
     {
         "id": 4,
-        "title": "Điều gì xảy ra đối với hệ số ma sát trượt giữa 2 mặt tiếp xúc nếu lực pháp tuyến ép hai mặt tiếp xúc tăng lên ?",
+        "title": "Lực căng dây có phương là ?",
         "options": [
             {
                 "A":"A",
-                "a":"Tăng lên."
+                "a":"Phương thẳng đứng"
             },
             {
                 "A":"B",
-                "a":"Giảm đi."
+                "a":"Phương nằm ngang"
             },
             {
                 "A":"C",
-                "a":"Không đổi."
+                "a":"Phương trùng với chính sợi dây"
             },
             {
                 "A":"D",
-                "a":"Tùy trường hợp, có thể tăng lên hoặc giảm đi."
+                "a":"Phương xiên"
             }
         ],
-        "answer": "Không đổi."
+        "answer": "Phương trùng với chính sợi dây"
     },
     {
         "id": 5,
-        "title": "Một vật có vận tốc đầu có độ lớn là $10m/s$ trượt trên mặt phẳng ngang. Hệ số ma sát trượt giữa vật và mặt phẳng là $0,10$. Hỏi vật đi được quãng đường bao nhiêu thì dừng lại? Lấy $g=10 m/s^2$. Chọn chiều dương là chiều chuyển động của vật.",
+        "title": "Một quả táo có khối lượng 100g rơi xuống đất khỏi cành cây, bỏ qua lực cản không khí, lấy $g = 10 m/s^2$. Tính trọng lực tác dụng lên quả táo.",
         "options": [
             {
                 "A":"A",
-                "a":"$20m$"
+                "a":"$3N$"
             },
             {
                 "A":"B",
-                "a":"$50m$"
+                "a":"$1N$"
             },
             {
                 "A":"C",
-                "a":"$100m$"
+                "a":"$2N$"
             },
             {
                 "A":"D",
-                "a":"$500m$"
+                "a":"$5N$"
             }
         ],
-        "answer": "$50m$"
+        "answer": "$1N$"
     },
     {
         "id": 6,
@@ -185,29 +185,6 @@
     },
     {
         "id": 9,
-        "title": "Chọn đáp án đúng. Lực căng dây có đặc điểm:",
-        "options": [
-            {
-                "A":"A",
-                "a":"Điểm đặt là điểm mà đầu dây tiếp xúc với vật."
-            },
-            {
-                "A":"B",
-                "a":"Phương trùng với chính sợi dây."
-            },
-            {
-                "A":"C",
-                "a":"Chiều hướng từ hai đầu sợi dây vào phần giữa sợi dây."
-            },
-            {
-                "A":"D",
-                "a":"Cả A, B và C đều đúng."
-            }
-        ],
-        "answer": "Cả A, B và C đều đúng."
-    },
-    {
-        "id": 10,
         "title": "Một vật có khối lượng $1 kg$ được giữ yên trên một mặt phẳng nghiêng bởi một sợi dây song song với đường dốc chính. Biết $α = 300$. Cho $g = 10 m/s^2$. Lực ép của vật lên mặt phẳng nghiêng là bao nhiêu?",
         "options": [
             {
@@ -230,7 +207,7 @@
         "answer": "$5√3 N$"
     },
     {
-        "id": 11,
+        "id": 10,
         "title": "Một toa tàu có khối lượng $80 tấn$ chuyển động thẳng đều dưới tác dụng của lực kéo nằm ngang $F=6.104 N$. Lấy $g = 10 m/s^2$. Hệ số ma sát giữa tàu và đường ray là ?",
         "options": [
             {
@@ -253,7 +230,7 @@
         "answer": "$0,075$"
     },
     {
-        "id": 12,
+        "id": 11,
         "title": "Vật khối lượng $m$ nằm trên ván nằm ngang. Nâng dần một đầu tấm ván lên, hỏi góc hợp bởi mặt phẳng ván và phương ngang phải bằng bao nhiêu thì vật bắt đầu trượt. Biết hệ số ma sát trượt là $0,577$.",
         "options": [
             {
@@ -276,7 +253,7 @@
         "answer": "$30^o$"
     },
     {
-        "id": 13,
+        "id": 12,
         "title": "Khi vật lăn trên một vật khác",
         "options": [
             {
